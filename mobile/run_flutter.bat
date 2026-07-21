@@ -1,0 +1,9 @@
+@echo off
+REM Run this from the project root or double-click this file.
+cd /d %~dp0
+echo Running Flutter clean...
+flutter clean
+echo Fetching packages...
+flutter pub get
+echo Starting Flutter app...
+flutter run
