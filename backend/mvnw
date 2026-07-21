@@ -1,0 +1,8 @@
+#!/bin/sh
+# Simple local Maven wrapper for Unix-like shells
+MAVEN_HOME="${MAVEN_HOME:-/c/Users/HP/.maven/maven-3.10.0-rc-1}"
+if [ -x "$MAVEN_HOME/bin/mvn" ]; then
+  "$MAVEN_HOME/bin/mvn" "$@"
+else
+  mvn "$@"
+fi
