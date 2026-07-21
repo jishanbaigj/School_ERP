@@ -112,8 +112,8 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
-                    <!-- Compile classes to Java 24 classfile version for tooling compatibility -->
-                    <release>24</release>
+                    <!-- Compile classes to Java 23 classfile version for tooling compatibility with Spring Boot tooling -->
+                    <release>23</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
