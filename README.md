@@ -4,9 +4,11 @@ This workspace contains a starter full-stack foundation for a Smart School ERP s
 
 ## Stack
 - Frontend: Flutter
-- Backend: Spring Boot 3 + Java 21
+- Backend: Spring Boot 3.3.11 + Java 25
 - Database: H2 (dev), MySQL-ready configuration
 - Auth: Spring Security + JWT-ready foundation
+
+> Note: The backend requires Maven and JDK 25 to build and run.
 
 ## Structure
 - backend/: Spring Boot backend
